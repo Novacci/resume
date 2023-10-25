@@ -1,1 +1,1 @@
-My CV/resume as of March 2019
+My resume created with LaTeX -> 2023/2024
