@@ -1,0 +1,167 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+\usepackage{hyperref}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Wojciech} \headerlastnamestyle{Nowak} \\
+	\vspace{2mm}
+	{\faEnvelope\ wojtekn00@gmail.com} | {\faMobile\ +48 795 712 136} | {\faMapMarker\ Wrocław, PL} | {\faLink\ \href{https://github.com/Novacci}{github.com/novacci}} | {\faGlobe\ \href{https://novacci.pl/}{novacci.pl}}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Master of Science}
+	{Wroclaw University of Economics and Business}
+	{Wroclaw, PL}
+	{October 2023 – Until now}
+	{Computer Science in Business, Specialization: Big Data}
+	\cventry
+	{Bachelor of Science}
+	{Wroclaw University of Science and Technology}
+	{Wroclaw, PL}
+	{October 2016 – February 2020}
+	{Environmental Engineering, Specialization: Water supply, wastewater disposal and waste management. Thesis topic: Conceptual design of the city's water supply system in the perspective period}
+\end{cventries}
+
+\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+  \cventry
+  {Full-stack Web Developer}
+  {NoMachine}
+  {Wroclaw, PL}
+  {December 2023 – Present}
+  {\begin{cvitems}
+    \item {Creating and maintaining visually appealing and performance-effective websites}
+    \item {Designing, developing, and deploying web applications using MERN stack technologies, including MongoDB, Express.js, React, and Node.js}
+    \item {Developing and maintaining back-end servers using Express.js and Node.js, handling requests and business logic}
+    \item {Designing and programming user interfaces in React, creating components, and ensuring responsiveness}
+    \item {Using version control systems like Git to track code changes}
+    \end{cvitems}}
+	\cventry
+{Internstore}
+  {E-commerce Application}
+  {}
+  {}
+  {\begin{cvitems}
+    \item {E-commerce platform using cutting-edge technologies including Next.js, React, Tailwind CSS, Firebase and Redux. This project showcases my expertise in building high-performance web applications with a focus on user experience and data management}
+    \end{cvitems}}
+	\cventry
+{Novacci.pl}
+  {Portfolio Website}
+  {}
+  {}
+  {\begin{cvitems}
+    \item {Dynamic portfolio website using React and SCSS, which not only features a sleek dark mode design but also incorporates the i18n protocol for language switching. Additionally, I connected the website to the Spotify API, enabling users to view my current music preferences in real-time}
+    \end{cvitems}}
+\end{cventries}
+\vspace{-5mm}
+\cvsection{Skills}
+\begin{cventries}
+  \cventry
+  {}
+  {Frontend}
+  {}
+  {}
+  {\vspace{-3.5mm}\begin{cvitems}
+    \item {Breakdown and implementation of the interface
+	into components}
+    \item {Using the axios library to make HTTP requests to
+	the server}
+    \item {Process the received data and display it in the
+	interface components}
+	\item {Contact translators and add additional languages
+	to the application}
+	\item {Implementation of the new features such as dark mode or chat bots}
+    \item {Implementation of sorting, filtering and pagination}
+    \item {Creating forms with validation through the use of React Hook Form}
+    \end{cvitems}}
+	\cventry
+	{}
+	{Backend}
+	{}
+	{}
+	{\vspace{-3.5mm}\begin{cvitems}
+	  \item {Create and configure a MongoDB Atlas
+	  database}
+	  \item {Configuring the server environment}
+	  \item {Create routing and define paths and
+	  handling of HTTP requests}
+	  \item {Creation of data models}
+	  \item {implementation of services, middleware and
+	  controller for user login and verification}
+	  \item {Basic error handling}
+	  \end{cvitems}}
+\end{cventries}
+\vspace{-6mm}
+\cvsection{Tools}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ JavaScript, TypeScript, Python}} \\
+    Frameworks and tools: & {\skill{ ReactJS, NextJS, NodeJS, ExpressJS, Redux, Tailwind, Material UI, Sass }} \\
+    Databases: & {\skill{ MongoDB, FirebaseDB, PostgreSQL}} \\
+    Other relevant skills: & {\skill{ GIT, Postman, NPM, VisualStudioCode }} \\
+    Languages: & {\skill{ English (proficient), Polish (native), Germany (basic)}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+\vspace{-5mm}
+\begin{center}
+\tiny{\textit{I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.}}
+\end{center}
+\end{document}
